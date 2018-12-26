@@ -269,7 +269,7 @@ p {
 .feedback .key-comment {
   display: inline-block;
   float: left;
-  width: 20px;
+  width: 30px;
   font-size: 16px;
   font-weight: 700;
 }
@@ -280,16 +280,6 @@ p {
 
 .feedback .comment span {
   color: #97AAC3;
-}
-
-.feedback-section .bad-word {
-  color: red;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.feedback-section .bad-word span {
-  font-weight: 700;
 }
 
 .feedback-section .form {
@@ -313,6 +303,7 @@ p {
 }
 
 .feedback-section .btn {
+  display: block;
   border: 2px solid #42A8C0;
   background: #7BC2D3;
   color: #ffffff;
